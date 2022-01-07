@@ -121,7 +121,6 @@ type server struct {
 
 // sconn represents a server connection
 type sconn struct {
-	id int
 	net.Conn
 }
 
